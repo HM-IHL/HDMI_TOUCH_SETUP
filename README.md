@@ -22,11 +22,12 @@ Use the following commands to backup the current config.txt file and replace it 
 4. sudo cp config.txt /boot/config.txt
 
 Once you reboot the Raspberry Pi you should get an image on the display.
+
 *Note that currently the config.txt is setup to allow a resolution of 1280 x 800 to be output via the HDMI port.
 
 To setup the touch you will need to add another line of code into the config.txt file.
 
-If you have copied the config.txt file provided you can miss this step.
+If you have copied the config.txt file provided you can skip this step.
 
 1. Add the following line into config.txt:
 
@@ -34,11 +35,11 @@ dtoverlay=pitft28-capacitive
 
 This will enable the Dtoverlay for the Raspberry Pi.
 
-Now we have to change the resolution settings of the touchscreen.
+Now we have to change the resolution settings of the touchscreen, thsi will need to be done even if the config file provided has been used.
 1. sudo nano /usr/shar/X11/xorg.conf.d/10-evdev.conf
 2. Add the following line before the last EndSection line:
 Option " Calibration" " 0 1280 0 800"
 
-once you reboot the Raspberry Pi, Assuming You have connected the touch screen and the display as per the assembly instructions, you will now have a working 10.1" dispaly with touch screen.
+Once you reboot the Raspberry Pi, Assuming You have connected the touch screen and the display as per the assembly instructions, you will now have a working 10.1" dispaly with touch screen.
 
 If you want to enable the right click function Please see the other repository https://github.com/HM-IHL/10.1-Touch-RPI
