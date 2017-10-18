@@ -11,3 +11,9 @@ hdmi_group=2
 hdmi_mode=27
 
 or you can use the config.txt file attached to this repository.
+
+Use the follwoing commands to backup the current config.txt file and replace it with the one provided.
+1. git clone https://github.com/HM-IHL/10.1-Raspberry-Pi-HDMI.git
+2. cd 10.1-Raspberry-Pi-HDMI
+3. mv /boot/config.txt /boot/config.txt.backup
+4. sudo cp config.txt /boot/config.txt
