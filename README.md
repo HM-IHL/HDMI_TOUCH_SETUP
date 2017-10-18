@@ -40,6 +40,6 @@ Now we have to change the resolution settings of the touchscreen, thsi will need
 2. Add the following line before the last EndSection line:
 Option " Calibration" " 0 1280 0 800"
 
-Once you reboot the Raspberry Pi, Assuming You have connected the touch screen and the display as per the assembly instructions, you will now have a working 10.1" dispaly with touch screen.
+Once you reboot the Raspberry Pi, Assuming You have connected the touch screen and the display as per the assembly instructions, you will now have a working 10.1" display with touch screen.
 
 If you want to enable the right click function Please see the other repository https://github.com/HM-IHL/10.1-Touch-RPI
