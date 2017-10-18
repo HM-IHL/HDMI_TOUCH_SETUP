@@ -56,4 +56,3 @@ dtoverlay=pitft28-capacitive
 hdmi_force_hotplug=1
 hdmi_group=2
 hdmi_mode=27
-#lcd_rotate=0x10000
