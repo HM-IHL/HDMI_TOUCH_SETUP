@@ -14,7 +14,7 @@ Use the following commands to backup the current files and replace it with the o
 3. sudo mv /boot/config.txt /boot/config.txt.backup
 4. sudo cp config.txt /boot/config.txt
 5. sudo reboot
-7. cd 10.1-Raspberry-Pi-HDMI (go to the repository you just cloned)
+7. cd HDMI_TOUCH_SETUP (go to the repository you just cloned)
 6. sudo mv /usr/share/X11/xorg.conf.d/10-evdev.conf /usr/share/X11/xorg.conf.d/10-evdev.conf.backup
 7. sudo cp 10-evdev.conf /usr/share/X11/xorg.conf.d/10.evdev.conf
 
