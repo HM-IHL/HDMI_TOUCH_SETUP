@@ -9,8 +9,8 @@ To enable the HDMI to force data, the following lines are added to the config.tx
 OPTION 1
 
 Use the following commands to backup the current files and replace it with the ones provided.
-1. git clone https://github.com/HM-IHL/10.1-Raspberry-Pi-HDMI.git
-2. cd 10.1-Raspberry-Pi-HDMI
+1. git clone https://github.com/HM-IHL/HDMI_TOUCH_SETUP.git
+2. cd HDMI_TOUCH_SETUP
 3. mv /boot/config.txt /boot/config.txt.backup
 4. sudo cp config.txt /boot/config.txt
 5. sudo reboot
