@@ -38,7 +38,7 @@ You will need to reboot before you move on, this is to ensure the I2C drivers ar
 
 Now we have to change the resolution settings of the touchscreen.
 
-1. sudo nano /usr/shar/X11/xorg.conf.d/10-evdev.conf
+1. sudo nano /usr/share/X11/xorg.conf.d/10-evdev.conf
 2. Add the following line before the last EndSection line:
 Option " Calibration" " 0 1280 0 800"
 
